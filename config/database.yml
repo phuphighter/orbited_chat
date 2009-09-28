@@ -1,0 +1,17 @@
+development: 
+  adapter: mysql 
+  encoding: utf8 
+  database: orbited_chat_development
+  pool: 5 
+  username: 
+  password: 
+  socket: 
+
+production: 
+  adapter: mysql 
+  encoding: utf8 
+  database: orbited_chat_production
+  pool: 5 
+  username: 
+  password:
+  socket:

@@ -1,0 +1,11 @@
+<h2>Orbited Test on Rails</h2>  
+
+<%= form_remote_tag(:url => { :controller => 'chatrooms', :action => :add_line } ) %>
+  Name: <%= text_field_tag( 'name','', { :size => 20, :id => 'name'} ) %>
+  Message: <%= text_field_tag( 'entry','', { :size => 70, :id => 'entry'} ) %>
+  <%= submit_tag("Say Something") %>
+</form>
+
+<br />
+
+<div id="chat_window" style="height:300px;border:1px solid black;overflow:scroll;"></div>
