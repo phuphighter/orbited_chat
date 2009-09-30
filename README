@@ -2,6 +2,8 @@
   
 Rails chatroom with Orbited
 
+This is an example chatroom using the plugin: http://github.com/mallio/orbited
+
 == Author
 
 * Johnny Nguyen
