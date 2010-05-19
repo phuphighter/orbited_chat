@@ -1,1 +1,737 @@
 
+/!\ FAILSAFE /!\  Wed May 19 16:26:09 -0500 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: NO)
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+/!\ FAILSAFE /!\  Wed May 19 16:27:16 -0500 2010
+  Status: 500 Internal Server Error
+  Unknown database 'orbited_chat_development'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `real_connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:576:in `connect'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:204:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `new'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/mysql_adapter.rb:76:in `mysql_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+    /Library/Ruby/Gems/1.8/gems/rails-2.3.2/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+  [4;36;1mSQL (26.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (29.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-19 16:28:11) [GET]
+
+ActionController::RoutingError (No route matches "/chat" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-19 16:28:14) [GET]
+
+ActionController::RoutingError (No route matches "/chatroom" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:28:18) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 65ms (View: 64, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:28:26) [POST]
+  Parameters: {"name"=>"Test", "commit"=>"Say Something", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Yo", "_"=>""}
+Completed in 61ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:28:43) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:28:49) [POST]
+  Parameters: {"name"=>"Test", "commit"=>"Say Something", "authenticity_token"=>"HXeaIT5k/HvoUt+eo4mNqqnk5wlOalA7kBiE/l81XLI=", "entry"=>"sup"}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:28:59) [POST]
+  Parameters: {"name"=>"Test", "commit"=>"Say Something", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Not much man", "_"=>""}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:35:17) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:35:30) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:36:22) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:37:08) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:37:15) [POST]
+  Parameters: {"name"=>"Yo", "commit"=>"Say Something", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Test", "_"=>""}
+Completed in 32ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:37:18) [POST]
+  Parameters: {"name"=>"Yo", "commit"=>"Say Something", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"What's up", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:37:34) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:37:37) [POST]
+  Parameters: {"name"=>"Test", "commit"=>"Say Something", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Yo", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:37:40) [POST]
+  Parameters: {"name"=>"Test", "commit"=>"Say Something", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"What's up", "_"=>""}
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:37:48) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:37:52) [POST]
+  Parameters: {"name"=>"Bill", "commit"=>"Say Something", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Test", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:37:54) [POST]
+  Parameters: {"name"=>"Bill", "commit"=>"Say Something", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"What's up", "_"=>""}
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:38:09) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:38:13) [POST]
+  Parameters: {"name"=>"Yo", "commit"=>"Say Something", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Test", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:38:29) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:38:44) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:38:53) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:39:10) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:39:36) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:39:53) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:40:16) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (9.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:40:26) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 10) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:41:15) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 53ms (View: 51, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (9.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:41:36) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 8ms (View: 6, DB: 10) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:41:57) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:42:00) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Test", "_"=>""}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:42:13) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 66ms (View: 65, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:42:16) [POST]
+  Parameters: {"name"=>"Johnny", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Test", "_"=>""}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:42:18) [POST]
+  Parameters: {"name"=>"Johnny", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"What's up", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:42:20) [POST]
+  Parameters: {"name"=>"Johnny", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Anything going on?", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:42:25) [POST]
+  Parameters: {"name"=>"Johnny", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Sweetness", "_"=>""}
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:43:25) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:43:29) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Test", "_"=>""}
+Completed in 7ms (View: 1, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:43:31) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"What's up", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:44:19) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:44:22) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Test", "_"=>""}
+Completed in 7ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:44:24) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"What's up", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:44:54) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:44:58) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Test", "_"=>""}
+Completed in 8ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:44:59) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"What's up", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:01) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Sweet", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:14) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"Awesome", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:15) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:16) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:16) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:16) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:16) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:17) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 5ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:17) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:17) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:17) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:17) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:18) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:18) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:18) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"adg", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:18) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"a", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:18) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"g", "_"=>""}
+Completed in 6ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:19) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"fdg", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:19) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"da", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:19) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"f", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:19) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"ad", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:20) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"ga", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:20) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"dg", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:20) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"as", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#add_line (for 127.0.0.1 at 2010-05-19 16:45:20) [POST]
+  Parameters: {"name"=>"Bill", "authenticity_token"=>"A0GPymwKX04mZQUjtuYrq0t+JCCBCLQ5l8rWYOCWo3k=", "entry"=>"dg", "_"=>""}
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://localhost/chatrooms/add_line]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:45:24) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:45:38) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:46:49) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:46:59) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 3) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:47:27) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:47:38) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:47:48) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:48:00) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/chatrooms]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ChatroomsController#index (for 127.0.0.1 at 2010-05-19 16:48:16) [GET]
+Rendering template within layouts/chatrooms
+Rendering chatrooms/index
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://localhost/chatrooms]

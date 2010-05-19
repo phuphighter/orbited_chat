@@ -1,11 +1,15 @@
-<h2>Orbited Test on Rails</h2>  
+<h1>Orbited Test on Rails</h1>
 
 <%= form_remote_tag(:url => { :controller => 'chatrooms', :action => :add_line } ) %>
-  Name: <%= text_field_tag( 'name','', { :size => 20, :id => 'name'} ) %>
-  Message: <%= text_field_tag( 'entry','', { :size => 70, :id => 'entry'} ) %>
-  <%= submit_tag("Say Something") %>
+  Name: <%= text_field_tag( 'name','', { :size => 20, :id => 'name', :class => "input"} ) %>
+  Message: <%= text_field_tag( 'entry','', { :size => 70, :id => 'entry', :class => "input"} ) %>
 </form>
 
 <br />
 
-<div id="chat_window" style="height:300px;border:1px solid black;overflow:scroll;"></div>
+<div id="chat_window" class="bordered">
+	<ul id="chat_list">
+	</ul>
+</div>
+
+<p style="font-size:1.2em;">Source is available <%= link_to "here", "http://github.com/phuphighter/orbited_chat", :target => "_blank", :style => "text-decoration:underline;font-weight:bold;" %></p>
