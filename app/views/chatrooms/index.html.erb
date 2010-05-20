@@ -1,9 +1,10 @@
-<h1>Orbited Test on Rails</h1>
+<h1>Orbited Example on Rails</h1>
 
-<%= form_remote_tag(:url => { :controller => 'chatrooms', :action => :add_line } ) %>
+<% form_remote_tag(:url => { :controller => 'chatrooms', :action => :add_line } ) do -%>
   Name: <%= text_field_tag( 'name','', { :size => 20, :id => 'name', :class => "input"} ) %>
   Message: <%= text_field_tag( 'entry','', { :size => 70, :id => 'entry', :class => "input"} ) %>
-</form>
+  <%= submit_tag "Say Something", :class => "common_button" %>
+<% end -%>
 
 <br />
 
