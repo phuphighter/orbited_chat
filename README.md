@@ -9,6 +9,7 @@ Install Orbited and dependencies [http://orbited.org/wiki/Installation](http://o
 # Dependencies
 
 Rails 2.3.5
+
 [Orbited Plugin](http://github.com/mallio/orbited)
 
 # Live Demo
