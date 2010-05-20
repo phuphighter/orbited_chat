@@ -1,5 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :chatrooms
+  
+  map.root :controller => "chatrooms"
 
   # The priority is based upon order of creation: first created -> highest priority.
 
